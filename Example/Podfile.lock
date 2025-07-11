@@ -1,22 +1,22 @@
 PODS:
-  - PodIJKPlayer (0.2.2):
-    - PodIJKPlayer/Core (= 0.2.2)
-  - PodIJKPlayer/Core (0.2.2)
+  - PodIJKMedia (0.2.2):
+    - PodIJKMedia/Core (= 0.2.2)
+  - PodIJKMedia/Core (0.2.2)
 
 DEPENDENCIES:
-  - PodIJKPlayer (from `../PodIJKPlayer.podspec`)
+  - PodIJKMedia (from `../PodIJKMedia.podspec`)
 
 EXTERNAL SOURCES:
-  PodIJKPlayer:
-    :podspec: "../PodIJKPlayer.podspec"
+  PodIJKMedia:
+    :podspec: "../PodIJKMedia.podspec"
 
 CHECKOUT OPTIONS:
-  PodIJKPlayer:
+  PodIJKMedia:
     :commit: f7ec126c4ee2f962a0477f26d4b733cee78751a7
-    :git: https://github.com/changsanjiang/PodIJKPlayer.git
+    :git: https://github.com/microspaze/PodIJKMedia.git
 
 SPEC CHECKSUMS:
-  PodIJKPlayer: f042e997c06f558d9bd3d9e64f91226574fd6600
+  PodIJKMedia: f042e997c06f558d9bd3d9e64f91226574fd6600
 
 PODFILE CHECKSUM: 2dd0124f433797a772fff20dbd9e7d1bbc78f67f
 

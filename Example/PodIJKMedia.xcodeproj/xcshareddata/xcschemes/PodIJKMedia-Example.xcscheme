@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "PodIJKPlayer_Example.app"
-               BlueprintName = "PodIJKPlayer_Example"
-               ReferencedContainer = "container:PodIJKPlayer.xcodeproj">
+               BuildableName = "PodIJKMedia_Example.app"
+               BlueprintName = "PodIJKMedia_Example"
+               ReferencedContainer = "container:PodIJKMedia.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "PodIJKPlayer_Tests.xctest"
-               BlueprintName = "PodIJKPlayer_Tests"
-               ReferencedContainer = "container:PodIJKPlayer.xcodeproj">
+               BuildableName = "PodIJKMedia_Tests.xctest"
+               BlueprintName = "PodIJKMedia_Tests"
+               ReferencedContainer = "container:PodIJKMedia.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "PodIJKPlayer_Example.app"
-            BlueprintName = "PodIJKPlayer_Example"
-            ReferencedContainer = "container:PodIJKPlayer.xcodeproj">
+            BuildableName = "PodIJKMedia_Example.app"
+            BlueprintName = "PodIJKMedia_Example"
+            ReferencedContainer = "container:PodIJKMedia.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "PodIJKPlayer_Example.app"
-            BlueprintName = "PodIJKPlayer_Example"
-            ReferencedContainer = "container:PodIJKPlayer.xcodeproj">
+            BuildableName = "PodIJKMedia_Example.app"
+            BlueprintName = "PodIJKMedia_Example"
+            ReferencedContainer = "container:PodIJKMedia.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "PodIJKPlayer_Example.app"
-            BlueprintName = "PodIJKPlayer_Example"
-            ReferencedContainer = "container:PodIJKPlayer.xcodeproj">
+            BuildableName = "PodIJKMedia_Example.app"
+            BlueprintName = "PodIJKMedia_Example"
+            ReferencedContainer = "container:PodIJKMedia.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

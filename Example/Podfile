@@ -2,10 +2,10 @@
 
 platform :ios, '9.0'
 
-target 'PodIJKPlayer_Example' do
-  pod 'PodIJKPlayer', :podspec => '../PodIJKPlayer.podspec'
+target 'PodIJKMedia_Example' do
+  pod 'PodIJKMedia', :podspec => '../PodIJKMedia.podspec'
 
-  target 'PodIJKPlayer_Tests' do
+  target 'PodIJKMedia_Tests' do
     inherit! :search_paths
 
     

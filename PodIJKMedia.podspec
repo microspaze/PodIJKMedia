@@ -25,20 +25,25 @@ ijkplayer framework.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'microspaze' => 'microspaze@gmail.com' }
-  s.source           = { :http => 'https://raw.githubusercontent.com/microspaze/PodIJKMedia/main/PodIJKMedia.zip' }
+  s.source           = { :http => 'https://raw.githubusercontent.com/microspaze/PodIJKMedia/main/PodIJKMedia.zip', :type => 'zip' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
-
+  s.ios.deployment_target = '12.0'
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  s.user_target_xcconfig = { 
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' 
+  }
   s.source_files = '*.h'
   
   s.subspec 'Core' do |ss|
-      ss.vendored_frameworks = '*.xcframework'
+      ss.vendored_frameworks = 'IJKMediaFramework.xcframework'
       ss.frameworks  = "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MobileCoreServices", "OpenGLES", "QuartzCore", "VideoToolbox", "MediaPlayer"
-      ss.libraries   = "bz2", "z", "stdc++"
+      ss.libraries   = "bz2", "z", "c++"
   end
   
-  #s.static_framework = true
+  s.static_framework = true
   
   # s.resource_bundles = {
   #   'PodIJKMedia' => ['PodIJKMedia/Assets/*.png']

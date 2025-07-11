@@ -24,7 +24,7 @@ ijkplayer framework.
   s.homepage         = 'https://github.com/microspaze/PodIJKMedia'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'microspaze' }
+  s.author           = { 'microspaze' => 'microspaze@gmail.com' }
   s.source           = { :http => 'https://raw.githubusercontent.com/microspaze/PodIJKMedia/main/PodIJKMedia.zip' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

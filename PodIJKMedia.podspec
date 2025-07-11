@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodIJKMedia'
-  s.version          = '0.2.2'
+  s.version          = '0.2.3'
   s.summary          = 'framework'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ ijkplayer framework.
   s.source           = { :http => 'https://raw.githubusercontent.com/microspaze/PodIJKMedia/main/PodIJKMedia.zip', :type => 'zip' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '9.0'
   s.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
